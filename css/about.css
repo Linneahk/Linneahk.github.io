@@ -26,8 +26,8 @@
 }
 
 #theo img {
-    width: 100px;
-    height: 120px;
+    width: 92px;
+    height: 110px;
 }
 
 #MogP {
@@ -36,10 +36,10 @@
     display: flex;
     justify-content: center;
     gap: 5px;
-    width: 280px;
+    width: 290px;
 }
 #MogP img{
-    width: 100px;
+    width: 90px;
     height: 140px;
 }
 
@@ -53,8 +53,8 @@
     margin-left: 10px;
 }
 #sebastian img{
-    width: 180px;
-    height: 160px;
+    width: 125px;
+    height: 150px;
 }
 
 #klatring {
@@ -71,8 +71,46 @@
   
 }
 
+#venner {
+    background-color: #5b6e7e;
+    border-color:#27434d ;
+    display: flex;
+    justify-content: center;
+    width: 275px;
+    margin-left: 10px;
+}
+#venner img{
+    width: 122px;
+    margin-left: 10px;
+}
+
+#venner img:hover{
+    transform;
+    border-style: ridge;
+    border-color: aquamarine;
+}
+}
+
 #klatring img:hover{
     transform;
-    border-style: dashed;
+    border-style: ridge;
+    border-color: aquamarine;
+}
+
+#MogP img:hover{
+    transform;
+    border-style: ridge;
+    border-color: aquamarine;
+}
+
+#theo img:hover{
+    transform;
+    border-style:ridge;
+    border-color: aquamarine;
+}
+
+#sebastian img:hover{
+    transform;
+    border-style:ridge;
     border-color: aquamarine;
 }

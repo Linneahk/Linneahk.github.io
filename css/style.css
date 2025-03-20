@@ -94,6 +94,35 @@ body{
     padding:5px;
 }
 
+button {
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tilbakeKnapp{
+    border-color: #daddde;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-left: 560px;
+    transition: 3s;
+}
+
+.tilbakeKnapp a{
+    font-size: 15px;
+    font-style: oblique;
+    text-decoration:none;
+
+}
+
+.tilbakeKnapp :hover {
+    transform;
+    border-color: #55bd9b;
+    
+}
+
 
 
 
