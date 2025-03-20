@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\skjema.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="oppgåve">
+        <p>film sjanger:</p>
+        <select name="film" id="film">
+            <option value="action">action</option>
+            <option value="romantikk">romantikk</option>
+            <option value="grusser">grusser</option>
+            <option value="skrekk">skrekk</option>
+            <option value="humor">humor</option>
+            <option value="drama">drama</option>
+            <option value="krim">krim</option>
+            <option value="fantasi">fantasi</option>
+            <option value="sci-fi">sci-fi</option>
+            <option value="thriller">thriller</option>
+            <option value="sport">sport</option>
+            <option value="reality">reality</option>
+
+          </select>
+          <br><br>
+
+          <form action="/action_page.php">
+            <p>Film namn:</p>
+            <input type="text" id="fname" name="fname" value=""><br>
+            </form>
+
+            <form action="/action_page.php">
+            <p>Film dato:</p>
+            <input type="date" id="fdato" name="fdato">
+          </form>
+
+          <input id="button" type="submit" value="Submit">
+        </div>
+    </form>
+    
+</body>
+</html>

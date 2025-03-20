@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    background:#daddde;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .navbar a {
+    color:#daddde;
+    text-decoration: none;
+    justify-content: end;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color:#55bd9b;
+}
+
+#følje {
+    color:#27434d;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#følje:hover {
+    color:#55bd9b;
+    
+}
+.navbar{
+    background-color:#5b6e7e;
+    border-bottom:dashed;
+    border-color: #27434d;
+    border-width: 3px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display:flex;
+    padding: 10px 9%;
+}
+.navbar .logo {
+    font-size: 50px;
+    font-weight: 700;
+    outline: #27434d;
+}
+
+.navbar .meny {
+    display: flex;
+    justify-content:end;
+    margin-top: 20px;
+    margin-left: 350px;
+    justify-content: flex-end;
+    gap:40px;
+}
+
+
+.fag{
+    color:#daddde;
+    font-style:italic;
+    font-size: 20px;
+    padding-top: 10px; 
+    padding-left: 20px; 
+}

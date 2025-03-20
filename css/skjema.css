@@ -1,0 +1,29 @@
+body{
+   background-color: #c9ccd3;
+}
+
+.oppgåve{
+    margin: 140px;
+    background-color: #626a78;
+    color: #e8e4e4;
+    text-align: center;
+    padding: 50px;
+    border-style:dashed;
+    border-color: rgb(13, 37, 48);
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+#button{
+    border-color: rgb(11, 23, 35);
+    padding: 6px;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+#button:hover{
+    color: rgb(21, 209, 11);
+}
+    
+
+

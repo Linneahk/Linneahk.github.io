@@ -1,0 +1,78 @@
+.AboutContainer {
+    display:flex;
+    padding:20px;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+.AboutContainer div{
+    padding: 20px;
+    border-style: solid;
+    border-color: #5b6e7e;
+    border-radius: 5px;
+    width: 28%;
+    background-color:#aab5c0;
+    text-align: center;
+}
+#theo{
+    background-color: #5b6e7e;
+    border-color:#27434d ;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 290px;
+    margin:0;
+}
+
+#theo img {
+    width: 100px;
+    height: 120px;
+}
+
+#MogP {
+    background-color: #5b6e7e;
+    border-color:#27434d ;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 280px;
+}
+#MogP img{
+    width: 100px;
+    height: 140px;
+}
+
+#sebastian {
+    background-color: #5b6e7e;
+    border-color:#27434d ;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 260px;
+    margin-left: 10px;
+}
+#sebastian img{
+    width: 180px;
+    height: 160px;
+}
+
+#klatring {
+    background-color: #5b6e7e;
+    border-color:#27434d ;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 270px;
+}
+#klatring img{
+    width: 140px;
+    height: 125px;
+  
+}
+
+#klatring img:hover{
+    transform;
+    border-style: dashed;
+    border-color: aquamarine;
+}

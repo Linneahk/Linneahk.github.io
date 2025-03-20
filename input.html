@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\input.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    
+        <p>Contact</p> 
+
+     <form action="/action_page.php"> 
+
+        <div class="contact">
+            <label for="fname">First name:</label><br> 
+            <input type="text" id="fname" name="fname"><br> 
+            <label for="lname">Last name:</label><br> 
+            <input type="text" id="lname" name="lname"><br> 
+            <label for="email">Email:</label><br> 
+            <input type="email" id="email" name="email"><br> 
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number"><br>
+            <label for="w3review">tilbakemelding</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="30"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+        </form>  
+        <form action="/action_page.php">
+
+        <div id="Dyr">
+            <label for="dyr">velg ditt fav dyr:</label>
+        </div>
+    
+        <div class="contact">
+            <select name="dyr" id="dyr">
+                <option value="katt">katt</option>
+                <option value="hund">hund</option>
+                <option value="fugl">fugl</option>
+                <option value="marsvin">marsvin</option>
+                <option value="fisk">fisk</option>
+
+              </select>
+              <br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+      </form>
+    </main>
+</body>
+</html>
